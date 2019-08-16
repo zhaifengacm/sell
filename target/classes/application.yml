@@ -1,0 +1,41 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.0.101/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 192.168.0.101
+    port: 6379
+
+server:
+  servlet:
+    context-path: /sell
+
+
+
+wechat:
+#  公众平台、授权
+  myAppId: wx1267131eb078f365
+  myAPPSecret: e1a4f6e94c4b3defdf0fce3f1899da18
+#  开发平台，买家扫码登录
+  openAppId:
+  openAppSecret:
+#  支付
+  mchId: 1409146202
+  mchKey: 12
+#  发起支付不需要证书，退款需要
+  keyPath: h5.p12
+#  直接微信异步通知的
+  notifyUrl: http://zhaifengsell.natapp1.cc/sell/pay/notify
+  templateId:
+    orderStatus:
+
+peojectUrl:
+  wxMpAuthorize: http://zhaifengsell.natapp1.cc
+  wxOpenAuthorize: http://zhaifengsell.natapp1.cc
+  sell: http://zhaifengsell.natapp1.cc

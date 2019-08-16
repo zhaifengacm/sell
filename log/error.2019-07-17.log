@@ -1,0 +1,12 @@
+Column 'order_status' cannot be null
+Column 'order_status' cannot be null
+Column 'order_status' cannot be null
+Column 'order_status' cannot be null
+Column 'order_status' cannot be null
+[取消订单]订单状态不正确.orderId=1563348136105176631,orderStatus=0
+[完结订单]订单状态不正确，orderId=1563348136105176631,orderStatus
+[完结订单]订单状态不正确，orderId=1563348136105176631,orderStatus
+[完结订单]订单状态不正确，orderId=1563348136105176631,orderStatus=2
+[完结订单]订单状态不正确，orderId=1563348136105176631,orderStatus=1
+[支付订单]订单状态不正确，orderId=1563348136105176631,orderStatus=1
+[支付订单]订单状态不正确，orderId=1563348136105176631,orderStatus=1
